@@ -18,7 +18,11 @@
     "url": "https://github.com/Wolox/eslint-config-wolox-node/issues"
   },
   "homepage": "https://github.com/Wolox/eslint-config-wolox-node#readme",
-  "dependencies": {
-    "eslint-config-wolox": "^2.2.1"
+  "peerDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-wolox": "^2.2.1",
+    "prettier": "^1.15.3",
+    "prettier-eslint": "^8.8.2",
+    "eslint-plugin-prettier": "^3.0.1"
   }
 }
