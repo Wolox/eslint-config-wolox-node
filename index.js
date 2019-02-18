@@ -15,7 +15,6 @@ module.exports = {
     },
     sourceType: "module"
   },
-  plugins: ["prettier"],
   extends: ["wolox"],
   globals: {
     __DEV__: true
@@ -37,3 +36,4 @@ module.exports = {
     }
   }
 };
+
