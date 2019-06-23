@@ -16,7 +16,6 @@ module.exports = {
     sourceType: "module"
   },
   extends: ["wolox"],
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/
   plugins: ["import"],
   globals: {
     __DEV__: true
