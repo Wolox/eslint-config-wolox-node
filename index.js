@@ -16,7 +16,6 @@ module.exports = {
     sourceType: "module"
   },
   extends: ["wolox"],
-  plugins: ["import"],
   globals: {
     __DEV__: true
   },
@@ -27,13 +26,6 @@ module.exports = {
     "camelcase": 0,
     "curly": ["error", "multi"],
     "global-require": "error",
-    "import/order": ["error", { groups: [["builtin", "external", "internal"]] }],
-    "import/named": "error",
-    "import/no-duplicates": "error",
-    "import/newline-after-import": "error",
-    "import/no-cycle": ["error", { maxDepth: Infinity }],
-    "import/no-useless-path-segments": "error",
-    "max-len": ["error", { code: 100 }],
     "max-nested-callbacks": 0,
     "max-params": ["error", 4],
     "no-magic-numbers": 0,

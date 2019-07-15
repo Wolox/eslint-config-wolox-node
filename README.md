@@ -1,7 +1,6 @@
 # eslint-config-wolox-node
 
-Linter that extends [wolox-linter](https://github.com/Wolox/eslint-config-wolox/) adapted to the [practices](https://github.com/arinaldi118/documentacion/blob/master/standards.md) established for Wolox NodeJS proyects.  
-It uses a [plugin import](https://github.com/benmosher/eslint-plugin-import) to define some rules.
+Linter that extends [wolox-linter](https://github.com/Wolox/eslint-config-wolox/) adapted to the [practices](https://github.com/arinaldi118/documentacion/blob/master/standards.md) established for Wolox NodeJS proyects.
 
 ## Contributing
 
