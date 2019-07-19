@@ -20,13 +20,15 @@ module.exports = {
     __DEV__: true
   },
   rules: {
+    "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
-    "arrow-spacing": ['error', { before: true, after: true }],
+    "arrow-spacing": ["error", { before: true, after: true }],
     "camelcase": 0,
-    "max-len": ["error", { "code": 120 }],
+    "curly": ["error", "multi"],
+    "global-require": "error",
     "max-nested-callbacks": 0,
-    "max-params": ["error", 4],
     "no-magic-numbers": 0,
+    "one-var": ["error", "never"]
   },
   settings: {
     "import/resolver": {
