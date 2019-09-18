@@ -24,7 +24,7 @@ module.exports = {
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": ["error", { before: true, after: true }],
     "camelcase": 0,
-    "curly": ["error", "multi"],
+    "curly": ["error", "multi-line"],
     "global-require": "error",
     "max-nested-callbacks": 0,
     "no-magic-numbers": 0,
@@ -38,4 +38,3 @@ module.exports = {
     }
   }
 };
-
