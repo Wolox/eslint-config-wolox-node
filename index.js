@@ -27,6 +27,7 @@ module.exports = {
     "curly": ["error", "multi-line"],
     "global-require": "error",
     "max-nested-callbacks": 0,
+    "no-extra-parens": ["error", "functions"],
     "no-magic-numbers": 0,
     "one-var": ["error", "never"]
   },
